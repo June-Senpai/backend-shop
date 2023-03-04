@@ -6,7 +6,7 @@ require('dotenv').config()
 
 // ---------------------- this is express stuff --------------------------
 let corsOptions = {
-    origin: ['http://localhost:3000']
+    origin: ['http://localhost:3000'] // origin: ['http://localhost:3000' , 'http://june.com']
 }
 
 app.use(cors(corsOptions))
