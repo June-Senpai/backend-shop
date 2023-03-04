@@ -21,7 +21,6 @@ app.use(cookieParser());
 
 // ---------------------- this is mongo db stuff --------------------------
 require('./lib/db')
-require('./models/cart.schema')
 require('./models/product.schema')
 
 
