@@ -4,7 +4,7 @@ const mongoose= require("mongoose")
 const Products = mongoose.model('Products');
 
 //for productdata api 
-router.get("/getproducts", async (req, res) => {
+router.get("/getall", async (req, res) => {
     try {
       console.log('passed here proooduvcusadnvuijds');
 
